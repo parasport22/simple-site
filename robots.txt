@@ -1,3 +1,4 @@
 ﻿User-agent: *
 Allow: /
-Sitemap: https://xturka-guide.vercel.app/sitemap.xml
+Sitemap: https://xturkagirisi.com/sitemap.xml
+

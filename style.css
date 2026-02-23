@@ -26,3 +26,6 @@ ul{padding-left:20px}.foot{padding:26px 0;color:var(--muted);text-align:center}
 .bonus-box{margin-top:14px;padding:12px 14px;border:1px solid #16a34a;background:#052e1f;border-radius:12px}
 .bonus-box p{margin:6px 0}
 .bonus-note{font-size:13px;color:#bbf7d0;font-weight:700}
+
+.bonus-img-wrap{display:block;margin-top:10px}
+.bonus-img{width:100%;max-width:420px;border-radius:12px;border:1px solid #22c55e;display:block}

@@ -3,62 +3,105 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dünya Kupası 2026 Türkiye Haber Merkezi (Demo)</title>
-  <meta name="description" content="Dünya Kupası 2026 odaklı Türkiye haber demo sitesi. Türk takımları, oyuncular, hazırlık kampı, fikstür ve canlı gelişmeler." />
+  <title>World Cup 2026 Türkiye Newsroom — MVP</title>
+  <meta name="description" content="Türkiye odaklı Dünya Kupası 2026 haber platformu. Dribbble tarzı modern spor haber tasarımı ile MVP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap">
-      <p class="kicker">DEMO · TURKIYE ODAKLI</p>
-      <h1>Dünya Kupası 2026 Haber Merkezi</h1>
-      <p class="lead">Türkiye, Türk futbolcular, hazırlık süreci, taktik analiz, yayın rehberi ve günlük gelişmeler.</p>
-      <div class="cta-row">
-        <a class="btn" href="#gundem">Gündeme Git</a>
-        <a class="btn ghost" href="#pipeline">AI Pipeline</a>
-      </div>
-    </div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="topbar wrap">
+    <div class="brand">WC26<span>TR</span></div>
+    <nav>
+      <a href="#news">Haberler</a>
+      <a href="#turkiye">Türkiye Odak</a>
+      <a href="#pipeline">AI Pipeline</a>
+      <a href="#seo">SEO Planı</a>
+    </nav>
   </header>
 
-  <main class="wrap">
-    <section id="gundem" class="grid">
-      <article class="card featured">
-        <span class="tag">SON DAKIKA</span>
-        <h2>Türkiye Kamp Kadrosu: İlk 30 Aday Oyuncu Analizi</h2>
-        <p>Teknik ekip ve olası formasyonlar üzerinden kadro senaryoları. Mevki bazlı güç-zayıf yön değerlendirmesi.</p>
-      </article>
-      <article class="card">
-        <span class="tag">TAKTIK</span>
-        <h3>Geçiş oyunu ve pres planı</h3>
-        <p>Türkiye’nin hızlı hücum setlerinde en verimli şablonlar.</p>
-      </article>
-      <article class="card">
-        <span class="tag">TAKVIM</span>
-        <h3>Hazırlık maçları ve yayın saatleri</h3>
-        <p>Önümüzdeki 60 gün için toplu yayın ajandası (TR saat).</p>
-      </article>
-      <article class="card">
-        <span class="tag">OYUNCU</span>
-        <h3>Form yükselten 5 Türk oyuncu</h3>
-        <p>Son 10 maç verisi: xG, şut katkısı, kilit pas, top kazanımı.</p>
-      </article>
+  <section class="hero wrap">
+    <div class="hero-left glass">
+      <p class="pill">2026 DÜNYA KUPASI · TÜRKİYE ODAKLI</p>
+      <h1>Türkiye için en hızlı <span>World Cup 2026</span> haber akışı</h1>
+      <p class="lead">Türk oyuncular, aday kadro, hazırlık maçları, taktik analiz, yayın rehberi ve anlık gelişmeler. Tamamı SEO ve index-first mimariyle.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#news">Canlı Gündem</a>
+        <a class="btn btn-ghost" href="#pipeline">Pipeline İncele</a>
+      </div>
+    </div>
+    <aside class="hero-right glass">
+      <h3>Bugün Öne Çıkanlar</h3>
+      <ul>
+        <li><b>Türkiye Aday Kadro:</b> Son performans verileri ile 26 kişilik olası liste</li>
+        <li><b>Yayın Rehberi:</b> Türkiye saatiyle maç takvimi + kanal bilgileri</li>
+        <li><b>Analiz:</b> Pres ve geçiş oyununda kilit Türk oyuncular</li>
+      </ul>
+      <div class="chip-row">
+        <span class="chip">Breaking</span>
+        <span class="chip">Türkiye</span>
+        <span class="chip">Kadro</span>
+      </div>
+    </aside>
+  </section>
+
+  <main class="wrap content">
+    <section id="news" class="panel glass">
+      <div class="panel-head">
+        <h2>Son Haberler</h2>
+        <a href="#">Tümünü Gör</a>
+      </div>
+      <div class="news-grid">
+        <article class="news-card news-main">
+          <span class="news-tag">SON DAKİKA</span>
+          <h3>Türkiye’nin Dünya Kupası 2026 yol haritası netleşiyor</h3>
+          <p>Teknik ekip kamp planını güncelledi. Avrupa’da formda Türk oyuncuların performansları detaylı incelenecek.</p>
+        </article>
+        <article class="news-card"><span class="news-tag alt">TAKTİK</span><h4>4-2-3-1 mi 3-4-2-1 mi?</h4><p>Rakip profiline göre iki sistemin artı/eksi yönleri.</p></article>
+        <article class="news-card"><span class="news-tag alt">OYUNCU</span><h4>Türk yıldızlarda son form grafiği</h4><p>Son 8 maç verisiyle etki analizi.</p></article>
+        <article class="news-card"><span class="news-tag alt">FİKSTÜR</span><h4>Hazırlık maçları ve saatler</h4><p>Türkiye saatiyle tam maç listesi.</p></article>
+      </div>
     </section>
 
-    <section id="pipeline" class="pipeline">
-      <h2>Yayın Pipeline (AI + SEO) — Demo Şema</h2>
-      <ol>
-        <li><b>Toplama:</b> RSS + resmi federasyon + güvenilir medya</li>
-        <li><b>Temizlik:</b> duplicate filtreleme + kaynak puanı</li>
-        <li><b>Yeniden yazım:</b> Türkçe editoryal ton + özgün başlık</li>
-        <li><b>Zenginleştirme:</b> schema, iç link, FAQ, özet kutusu</li>
-        <li><b>Kontrol:</b> doğruluk + hukuk + manuel onay</li>
-        <li><b>Yayın:</b> otomatik index tetikleme + social dağıtım</li>
+    <section id="turkiye" class="panel glass split">
+      <div>
+        <h2>Türkiye Odak Hub</h2>
+        <p>Bu bölümde yalnızca Türkiye ile ilgili içerikler: Türk oyuncular, milli takım kampı, teknik analizler, yayın erişimi ve taraftar gündemi.</p>
+      </div>
+      <div class="stat-grid">
+        <div class="stat"><span>24/7</span><p>AI destekli içerik akışı</p></div>
+        <div class="stat"><span>TR</span><p>Türkçe öncelikli yayın</p></div>
+        <div class="stat"><span>SEO</span><p>Schema + News Sitemap</p></div>
+        <div class="stat"><span>FAST</span><p>Vercel global edge</p></div>
+      </div>
+    </section>
+
+    <section id="pipeline" class="panel glass">
+      <h2>AI Haber Pipeline</h2>
+      <ol class="timeline">
+        <li><b>Toplama:</b> RSS + güvenilir kaynak + federasyon akışları</li>
+        <li><b>Filtre:</b> duplicate temizliği + Türkiye alakalı skor</li>
+        <li><b>Rerwrite:</b> Türkçe SEO başlık + özgün içerik + özet</li>
+        <li><b>Kontrol:</b> doğruluk ve editoryal güvenlik</li>
+        <li><b>Yayın:</b> schema, internal links, index tetikleme</li>
       </ol>
+    </section>
+
+    <section id="seo" class="panel glass">
+      <h2>SEO Index Planı (MVP)</h2>
+      <div class="seo-grid">
+        <div><h4>Teknik</h4><p>SSR/ISR, clean URL, CWV optimizasyonu, canonical.</p></div>
+        <div><h4>Schema</h4><p>NewsArticle, Breadcrumb, Organization, FAQ.</p></div>
+        <div><h4>Yayın</h4><p>Günlük 10+ haber + Türkiye odaklı 2 analiz.</p></div>
+        <div><h4>Dağıtım</h4><p>GSC ping, sitemap güncelleme, sosyal tetikleme.</p></div>
+      </div>
     </section>
   </main>
 
-  <footer class="wrap footer">
-    <p>Demo build · Vercel deployment hazır · Sonraki adım: dinamik CMS + otomatik haber akışı.</p>
-  </footer>
+  <footer class="wrap footer">MVP v2 · Dribbble-style visual direction · Vercel-ready</footer>
 </body>
 </html>
